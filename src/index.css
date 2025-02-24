@@ -1,0 +1,175 @@
+:root {
+  --lighPink: hsl(334, 65%, 91%);
+  --pink: #eeaeca;
+  --darkPink: #e481ac;
+  --lighBlue: #c0d7f2;
+  --blue: #94bbe9;
+  --darkBlue: #6ba2e1;
+  --violet: #8d86df;
+  --lightWhite: hsl(0, 0%, 95%);
+  --lighterWhite: hsl(0, 0%, 88%);
+  --lightBlack: #57575738;
+  --black: #575757;
+}
+
+
+* {
+  font-family: "Funnel Sans", serif;
+}
+
+
+
+
+/*=============================================
+=            COLOR SYSTEM            =
+=============================================*/
+
+.c-text-lighPink{color: var(--lighPink)}
+.c-text-pink{color: var(--pink)}
+.c-text-darkPink{color: var(--darkPink)}
+.c-text-lightBlue{color: var(--lightBlue)}
+.c-text-blue{color: var(--blue)}
+.c-text-darkBlue{color: var(--darkBlue)}
+.c-text-violet{color: var(--violet)}
+.c-text-lightWhite{color: var(--lightWhite)}
+.c-text-lightBlack{color: var(--lightBlack)}
+.c-text-black{color: var(--black)}
+
+.c-bg-lighPink{color: var(--lighPink)}
+.c-bg-pink{color: var(--pink)}
+.c-bg-darkPink{color: var(--darkPink)}
+.c-bg-lightBlue{color: var(--lightBlue)}
+.c-bg-blue{color: var(--blue)}
+.c-bg-darkBlue{color: var(--darkBlue)}
+.c-bg-violet{color: var(--violet)}
+.c-bg-lightWhite{color: var(--lightWhite)}
+
+/*----------  GRADIENT  ----------*/
+/* background: linear-gradient(0deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); */
+
+
+
+/*=============================================
+=            TITLE SYSTEM            =
+=============================================*/
+
+.big-title {
+  font-weight: 500 !important;
+  font-size: 24px !important;
+  line-height: 36px !important;
+  letter-spacing: 0.5px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.small-title {
+  font-weight: 600;
+  font-size: 20px !important;
+  line-height: 28px !important;
+}
+
+.big-body {
+  font-weight: 500;
+  font-size: 18px !important;
+  line-height: 24px !important;
+}
+
+.regular-body {
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+
+.small-body {
+  font-weight: 300;
+  font-size: 14px !important;
+  line-height: 22px !important;
+}
+
+.caption {
+  font-weight: 300;
+  font-size: 12px !important;
+  line-height: 16px !important;
+}
+
+.to-do-list-elements {
+  font-weight: 400;
+  font-size: 14px !important;
+  line-height: 24px !important;
+  padding-left: 8px;
+}
+
+
+/*=============================================
+=            START            =
+=============================================*/
+
+
+/*----------  frame  ----------*/
+.c-frame{
+  min-height: 100vh;
+  background: linear-gradient(0deg, rgba(238, 174, 202, 1) 20%, rgba(148, 187, 233, 1) 130%);
+  overflow: hidden;
+}
+
+
+/*----------  inputs  ----------*/
+input{
+  border: solid 2px var(--lighterWhite);
+  border-radius: 8px;
+  background-color: transparent;
+  padding: 12px 0px;
+  color: var(--lightWhite);
+}
+
+input:focus{
+  outline: none;
+}
+
+
+.input-task{
+  position: relative;
+}
+
+#plusIcon{
+  content: "";
+  position: absolute;
+  top: 12%;
+  left: 80%;
+}
+
+::placeholder{
+  color: var(--lighterWhite);
+  font-weight: 400;
+  font-size: 14px !important;
+  line-height: 22px !important;
+}
+
+
+/*----------  elements to-do  ----------*/
+
+.element-to-do{
+    border: none;
+    color: var(--black);
+    background-color: var(--lightWhite);
+    border-radius: 8px;
+    padding: 12px 0px;
+}
+
+/*----------  check-box  ----------*/
+
+
+
+/* Stile base per il checkbox personalizzato */
+
+/*=============================================
+=            MEDIA QUERYS            =
+=============================================*/
+@media screen and (min-width: 768px){
+    #plusIcon {
+        content: "";
+        position: absolute;
+        top: -5%;
+        left: 95%;
+      }
+    }
