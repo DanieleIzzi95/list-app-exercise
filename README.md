@@ -1,9 +1,13 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # list-app-exercise
+
+## Descrizione
+Questo progetto è nato con l'obiettivo di creare una semplice ma efficace To-Do List in versione mobile, utilizzando React. L'app permette di gestire facilmente le attività quotidiane grazie a un'interfaccia intuitiva e minimale
+
+## Linguaggi e Framework
+1. Html
+2. css
+3. bootstrap
+4. Javascript
+
+## User Interactions
+1. Utente pùo inserire un elemento, segnarlo, eliminarlo o svuotare completamente la lista
